@@ -18,6 +18,7 @@ def main():
     with open(output_filepath, "w", encoding="utf8") as fixed_statement:
         for line in output_statement:
             fixed_statement.write(line)
+
     print(output_statement)
 
 
